@@ -5,11 +5,31 @@
 #include <thread>
 #include "PlayerMoveSelector.h"
 #include "CPUMoveSelector.h"
+#include "Goomba.h"
 
-template <class T> T Derive()
+static const uint32 IDcount;
+template <class T> T* _Derive()
 {
 	return new T();
 }
+Fighter* Derive(uint32 classType)
+{
+	Fighter* instance = nullptr;
+	switch(classType)
+	{
+	case 0:
+		instance = _Derive<Goomba>();
+		break;
+	default:
+		instance = _Derive<Fighter>();
+		instance->SetName("MissingNo");
+		break;
+	}
+	return nullptr;
+}
+
+
+
 BattleEngine::BattleEngine()
 {
 	a = b = nullptr;
@@ -89,13 +109,7 @@ void BattleEngine::OutputTurn()
 
 void BattleEngine::RandomGenB()
 {
-	if(constructors.size() > 0)
-	{
-		uint32 target = (uint32)(RandomFloat()*constructors.size() - 1);
-		std::function<Fighter*()> constructor = constructors.at(target);
-		
-		b = constructor();
-	}
+	
 }
 void BattleEngine::ProcessA()
 {

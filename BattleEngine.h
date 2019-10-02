@@ -17,7 +17,7 @@ private:
 	 std::vector<CPUMoveSelector*> cpuInputs;
 	 std::vector < std::string>* firstBuffer;
 	 std::vector < std::string>* secondBuffer;
-	 std::vector < std::function<Fighter*()>> constructors;
+	 
 public:
 	BattleEngine();
 	~BattleEngine();
