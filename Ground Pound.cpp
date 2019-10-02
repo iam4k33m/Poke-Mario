@@ -7,7 +7,7 @@ GroundPound::GroundPound() : Move()
 {
     _name = "Ground Pound";
     _damage = 12;
-
+	_type = MoveType::Offensive;
 }
 void GroundPound::Evaluate(Fighter *user, Fighter *target)
 {

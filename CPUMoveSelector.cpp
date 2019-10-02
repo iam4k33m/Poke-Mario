@@ -38,13 +38,14 @@ CPUMoveSelector::CPUMoveSelector()
 	_player = nullptr;
 	_moveID = 0;
 	_startingHealth = 0;
-	_worryPortion = _panicPortion = 0.0f;
+	_worryPortion = 0.5f;
+	_panicPortion = 0.2f;
 }
 CPUMoveSelector::~CPUMoveSelector() = default;
 std::string CPUMoveSelector::PlayerAttack(Fighter* target)
 {
 	bool attackSelected = false;
-	float healthRatio = _player->GetHealth() / _startingHealth;
+	float healthRatio = (float)_player->GetHealth() / (float)_startingHealth;
 	//Worried attack logic
 	if(healthRatio < _worryPortion)
 	{

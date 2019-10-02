@@ -6,8 +6,9 @@
 #include "PlayerMoveSelector.h"
 #include "CPUMoveSelector.h"
 #include "Goomba.h"
+#include "Koopa.h"
 
-static const uint32 IDcount;
+static const uint32 IDcount = 2;
 template <class T> T* _Derive()
 {
 	return new T();
@@ -20,12 +21,15 @@ Fighter* Derive(uint32 classType)
 	case 0:
 		instance = _Derive<Goomba>();
 		break;
+	case 1:
+		instance = _Derive<Koopa>();
+		break;
 	default:
 		instance = _Derive<Fighter>();
 		instance->SetName("MissingNo");
 		break;
 	}
-	return nullptr;
+	return instance;
 }
 
 
@@ -59,18 +63,22 @@ std::vector<CPUMoveSelector *> &BattleEngine::GetCpuInputs()
 void BattleEngine::SetA(Fighter *a)
 {
     BattleEngine::a = a;
+	RegisterA(a);
 }
 
 void BattleEngine::SetB(Fighter *b)
 {
     BattleEngine::b = b;
+	RegisterB(b);
 }
 
 void BattleEngine::ProcessTurn()
 {
 	a->Update();
 	b->Update();
-	if(a->GetSpeed() >= b->GetSpeed())
+	
+		
+	if (a->GetSpeed() >= b->GetSpeed())
 	{
 		ProcessA();
 		ProcessB();
@@ -84,9 +92,12 @@ void BattleEngine::ProcessTurn()
 		firstBuffer = b->GetBufferLine();
 		secondBuffer = a->GetBufferLine();
 	}
+	
+	
 }
 void BattleEngine::OutputTurn()
 {
+	
 	for(uint32 i = 0; i < firstBuffer->size() || i < secondBuffer->size(); i++)
 	{
 		if (i < firstBuffer->size())
@@ -99,17 +110,79 @@ void BattleEngine::OutputTurn()
 			std::cout << secondBuffer->at(i) + '\n';
 			std::this_thread::sleep_for(std::chrono::milliseconds((uint32)(secondsTowait * 1000)));
 		}
+		
 	}
-	/*for (uint32 i = 0; i < secondBuffer->size(); i++)
+	if (CheckWin() > 0)
 	{
-		std::cout << secondBuffer->at(i) + '\n';
-		std::this_thread::sleep_for(std::chrono::milliseconds((uint32)(secondsTowait * 1000)));
-	}*/
+		if (CheckWin() == 1)
+		{
+			std::cout << b->GetName() + " Fainted!\n";
+		}
+		else
+		{
+			std::cout << a->GetName() + " Fainted!\n";
+		}
+	}
+	
 }
-
+uint32 BattleEngine::CheckWin()
+{
+	uint32 result = 0;
+	if(a->GetHealth() == 0)
+	{
+		result = 2;
+	}
+	if(b->GetHealth() == 0)
+	{
+		result = 1;
+	}
+	return result;
+}
 void BattleEngine::RandomGenB()
 {
-	
+	float randomValue = RandomFloat();
+	randomValue *= (IDcount - 1);
+	uint32 ID = static_cast<int>(roundf(randomValue));
+	b = Derive(ID);
+	RegisterB(b);
+}
+void BattleEngine::RandomGenA()
+{
+	float randomValue = RandomFloat();
+	randomValue *= (IDcount - 1);
+	uint32 ID = static_cast<int>(randomValue);
+	a = Derive(ID);
+	RegisterA(a);
+}
+void BattleEngine::RegisterA(Fighter* fighter)
+{
+	if (aIsCPU)
+	{
+		CPUMoveSelector* selector = new CPUMoveSelector();
+		selector->SetPlayer(a);
+		cpuInputs.push_back(selector);
+	}
+	else
+	{
+		PlayerMoveSelector* selector = new PlayerMoveSelector();
+		selector->SetPlayer(a);
+		playerInputs.push_back(selector);
+	}
+}
+void BattleEngine::RegisterB(Fighter* fighter)
+{
+	if (bIsCPU)
+	{
+		CPUMoveSelector* selector = new CPUMoveSelector();
+		selector->SetPlayer(b);
+		cpuInputs.push_back(selector);
+	}
+	else
+	{
+		PlayerMoveSelector* selector = new PlayerMoveSelector();
+		selector->SetPlayer(b);
+		playerInputs.push_back(selector);
+	}
 }
 void BattleEngine::ProcessA()
 {

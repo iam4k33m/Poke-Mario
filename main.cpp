@@ -19,34 +19,34 @@ int main()
 	Goomba* goomba = new Goomba();
 	Mario* darkMario = new Mario();
 	darkMario->SetName("Totally not Bowser Jr");
-	PlayerMoveSelector* playerM = new PlayerMoveSelector();
-	CPUMoveSelector* enemyM = new CPUMoveSelector();
-	enemyM->SetPanicPortion(0.2f);
-	enemyM->SetWorryPortion(0.6f);
-	playerM->SetPlayer(mario);
-	enemyM->SetPlayer(goomba);
-	engine->SetA(mario);
-	engine->SetB(goomba);
+	
+	
+	
 	engine->SetAIsCpu(false);
 	engine->SetBIsCpu(true);
-	engine->GetPlayerInputs().push_back(playerM);
-	engine->GetCpuInputs().push_back(enemyM);
+	engine->SetA(mario);
+	engine->RandomGenB();
+	
+	
+	
 	engine->SetSecondsTowait(0.2f);
-	std::cout << "Wild Goomba Appeared!\nGo Mario! \ntch!\n";
-    
-	while (mario->GetHealth() > 0 && goomba->GetHealth() > 0)
+	std::cout << "Wild " + engine->GetB()->GetName() + " Appeared!\nGo Mario! \ntch!\n";
+	uint32 status = engine->CheckWin();
+	while (status == 0)
 	{
+		int z = 1;
 		engine->ProcessTurn();
 		engine->OutputTurn();
 		std::cout << "Health: " << mario->GetHealth() << '\n';
+		status = engine->CheckWin();
 	}
 	system("pause");
     
     delete mario;
 	delete darkMario;
-	delete playerM;
+	
 	delete goomba;
-	delete enemyM;
+	
 
     return 0;
 }
