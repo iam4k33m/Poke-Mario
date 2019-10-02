@@ -1,0 +1,3 @@
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

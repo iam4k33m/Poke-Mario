@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 untitled"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 untitled/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\S17118281\ClionProjects\Poke-Mario3\Poke-Mario3(Visual Studio)\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/BattleEngine.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/BattleEngine.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Bite.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Bite.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/CPUMoveSelector.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/CPUMoveSelector.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Charge.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Charge.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Grab.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Grab.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Ground Pound.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Ground Pound.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Helpers.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Jump.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Jump.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Kick.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Kick.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Mario.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Mario.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/PlayerMoveSelector.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/PlayerMoveSelector.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Typedefs.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

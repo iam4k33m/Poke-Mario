@@ -1,0 +1,126 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.cpp
+iostream
+-
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+Helpers.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Helpers.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+Typedefs.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Typedefs.h
+vector
+-
+string
+-
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Grab.cpp
+Grab.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Grab.h
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Grab.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Ground Pound.cpp
+Ground Pound.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Ground Pound.h
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Ground Pound.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Helpers.h
+cstdlib
+-
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Jump.cpp
+Jump.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Jump.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Jump.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Kick.cpp
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+Kick.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Kick.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Kick.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Mario.cpp
+Mario.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Mario.h
+Jump.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Jump.h
+Kick.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Kick.h
+Ground Pound.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Ground Pound.h
+Grab.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Grab.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Mario.h
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.cpp
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+Typedefs.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Typedefs.h
+string
+-
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/PlayerMoveSelector.cpp
+PlayerMoveSelector.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/PlayerMoveSelector.h
+Fighter.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Fighter.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+iostream
+-
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/PlayerMoveSelector.h
+Typedefs.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Typedefs.h
+string
+-
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Typedefs.h
+
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/main.cpp
+iostream
+-
+Mario.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Mario.h
+Move.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/Move.h
+PlayerMoveSelector.h
+C:/Users/S17118281/ClionProjects/Poke-Mario3/Poke-Mario3(Visual Studio)/PlayerMoveSelector.h
+
