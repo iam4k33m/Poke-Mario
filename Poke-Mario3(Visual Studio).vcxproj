@@ -155,6 +155,7 @@
     <ClInclude Include="Bite.h" />
     <ClInclude Include="Charge.h" />
     <ClInclude Include="CPUMoveSelector.h" />
+    <ClInclude Include="DizzyShell.h" />
     <ClInclude Include="Fighter.h" />
     <ClInclude Include="Goomba.h" />
     <ClInclude Include="Grab.h" />
@@ -176,6 +177,7 @@
     <ClCompile Include="Bite.cpp" />
     <ClCompile Include="Charge.cpp" />
     <ClCompile Include="CPUMoveSelector.cpp" />
+    <ClCompile Include="DizzyShell.cpp" />
     <ClCompile Include="Fighter.cpp" />
     <ClCompile Include="Goomba.cpp" />
     <ClCompile Include="Grab.cpp" />

@@ -4,6 +4,7 @@
 #include "Move.h"
 #include "ShellToss.h"
 #include "PowerShell.h"
+#include "DizzyShell.h"
 class Koopa : public Fighter
 {
 public:
